@@ -17,6 +17,7 @@ public class MatchNullController {
         String str = code.trim();
         List<String> list1 = Arrays.asList("空", "没", "无");
         List<String> list2 = Arrays.asList("—", "-");
+        System.out.println("123");
         if(str.isEmpty()) {
             return "输入不合法";
         }
